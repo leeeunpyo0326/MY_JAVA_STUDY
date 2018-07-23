@@ -2,7 +2,7 @@ package icehs.science.chapter02;
 
 public class HelloWorld {
 	/**
-	 * java¾ß 
+	 * java¾ß ³îÀÚ
 	 * @param args
 	 */
 	/*
