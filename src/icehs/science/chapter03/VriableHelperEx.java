@@ -10,7 +10,7 @@ public class VriableHelperEx {
 		//in class;
 		int classOne;
 //		int var;
-		var = 10;
+		int var = 10;
 		int number = 10;
 		
 		System.out.println( number );
