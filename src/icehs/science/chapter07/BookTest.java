@@ -5,11 +5,11 @@ public class BookTest {
 	public static void main(String [] args) {
 		Book book1 = new Book();
 		
-		Book book2 = new Book("ÇØ¸®Æ÷ÅÍ", 15000);
+		Book book2 = new Book("í•´ë¦¬í¬í„°", 15000);
 		
-		Book book3 = new Book("Ä®ÀÇ ³ë·¡", "±èÈÆ");
+		Book book3 = new Book("ì¹¼ì˜ ë…¸ë˜", "ê¹€í›ˆ");
 		
-		Book book4 = new Book("¹Ù¶÷ÀÇ µş", "ÇÑºñ¾Æ", 39200);
+		Book book4 = new Book("ë°”ëŒì˜ ë”¸", "í•œë¹„ì•„", 39200);
 		
 		book1.printBookInfo();
 		book2.printBookInfo();

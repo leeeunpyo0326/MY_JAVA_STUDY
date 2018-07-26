@@ -28,8 +28,9 @@ public class Book {
 
 
 	void printBookInfo() {
-		System.out.println("Ã¥ Á¦¸ñ :" + this.title);
-		System.out.println("ÀÛ°¡¸í : + this.author");
-		System.out.println("°¡°İ :" + this.price);
+		System.out.println("ÃƒÂ¥ ÃÂ¦Â¸Ã± :" + this.title);
+		System.out.println("Ã€Ã›Â°Â¡Â¸Ã­ : + this.author");
+		System.out.println("Â°Â¡Â°Ã :" + this.price);
+		
 	}
 }

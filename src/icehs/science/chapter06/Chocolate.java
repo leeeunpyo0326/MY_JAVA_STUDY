@@ -27,8 +27,15 @@ public class Chocolate {
 		printChocolateInfo();
 	}
 	
+	
+		public String getType() {
+		return type;
+	}
+	public int getPrice() {
+		return price;
+	}
 		void printChocolateInfo() {
-			System.out.println("ÀÌ¸§" + name +", Á¾·ù : " + type +", °¡°Ý : " + price );
+			System.out.println("ï¿½Ì¸ï¿½" + name +", ï¿½ï¿½ï¿½ï¿½ : " + type +", ï¿½ï¿½ï¿½ï¿½ : " + price );
 	}
 	
 

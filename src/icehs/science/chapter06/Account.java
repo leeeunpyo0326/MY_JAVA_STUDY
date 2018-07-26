@@ -7,7 +7,7 @@ public class Account {
 	
 	void deposit(int money) {
 		if (money < 0) {
-			System.out.println("[¿¡·¯] ±İ¾×Àº À½¼ö¸¦ ÀÔ·ÂÇÒ ¼ö ¾ø½À´Ï´Ù.");
+			System.out.println("[ì—ëŸ¬] ê¸ˆì•¡ì€ ìŒìˆ˜ë¥¼ ì…ë ¥í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 		}else {
 		balance += money;
 	 }
@@ -15,16 +15,16 @@ public class Account {
 	
 	void withdraw(int money) {
 		if (money < 0) {
-			System.out.println("[¿¡·¯] ±İ¾×Àº À½¼ö¸¦ ÀÔ·ÂÇÒ ¼ö ¾ø½À´Ï´Ù.");
+			System.out.println("[ì—ëŸ¬] ê¸ˆì•¡ì€ ìŒìˆ˜ë¥¼ ì…ë ¥í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 		}else if (money > balance) {
-			System.out.println("[¿¡·¯] ÀÜ¾×ÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+			System.out.println("[ì—ëŸ¬] ì”ì•¡ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 		}else {
 			balance -= money;
 		}	
 	}
 	void printAccountInfo() {
 		
-		System.out.println("°èÁÂ :" + accNo + "(¿¹±İÁÖ :" + accName +")");
-		System.out.println("ÀÜ¾× : "+ balance +" ¿ø ");
+		System.out.println("ê³„ì¢Œ :" + accNo + "(ì˜ˆê¸ˆì£¼ :" + accName +")");
+		System.out.println("ì”ì•¡ : "+ balance +" ì› ");
 	}
 }

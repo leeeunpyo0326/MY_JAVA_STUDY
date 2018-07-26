@@ -5,26 +5,26 @@ public class AccountTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Account gildong = new Account();
-		gildong.accName = "È«±æµ¿";
+		gildong.accName = "í™ê¸¸ë™";
 		gildong.accNo = "123-456789";
 		gildong.balance = 10000;
 		gildong.printAccountInfo();
 		
-		System.out.println("20000¿øÀ» ÀÔ±İÇÕ´Ï´Ù");
+		System.out.println("20000ì›ì„ ì…ê¸ˆí•©ë‹ˆë‹¤");
 		gildong.deposit(20000);
-		System.out.println("ÀÜ¾× :" + gildong.balance + "¿ø");
+		System.out.println("ì”ì•¡ :" + gildong.balance + "ì›");
 		
-		System.out.println("-20000¿øÀ» ÀÔ±İÇÕ´Ï´Ù");
+		System.out.println("-20000ì›ì„ ì…ê¸ˆí•©ë‹ˆë‹¤");
 		gildong.deposit(-20000);
-		System.out.println("ÀÜ¾× :" + gildong.balance + "¿ø");
+		System.out.println("ì”ì•¡ :" + gildong.balance + "ì›");
 		
-		System.out.println("-20000¿øÀ» Ãâ±İÇÕ´Ï´Ù");
+		System.out.println("-20000ì›ì„ ì¶œê¸ˆí•©ë‹ˆë‹¤");
 		gildong.withdraw(-20000);
-		System.out.println("ÀÜ¾× :" + gildong.balance + "¿ø");
+		System.out.println("ì”ì•¡ :" + gildong.balance + "ì›");
 		
-		System.out.println("45000¿øÀ» Ãâ±İÇÕ´Ï´Ù");
+		System.out.println("45000ì›ì„ ì¶œê¸ˆí•©ë‹ˆë‹¤");
 		gildong.withdraw(45000);
-		System.out.println("ÀÜ¾× :" + gildong.balance + "¿ø");
+		System.out.println("ì”ì•¡ :" + gildong.balance + "ì›");
 		
 		
 		

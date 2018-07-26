@@ -3,22 +3,17 @@ package icehs.science.chapter06;
 public class ChocolateTest {
 	
 	public static void main (String [] args) {
-		Chocolate choco = new Chocolate();
-		choco.name = "¾ÆÀÌµµ¶ó";
-		choco.type = "´ÙÅ©";
-		choco.price = 2200;
 		
-		choco.printChocolateInfo();
-		String chocoName = choco.getName();
-		int totalPrice = choco.calculateTotalPrince(20);
+		Chocolate [] choco = new Chocolate[3];
 		
-		System.out.println(chocoName + "ÃÊÄÚ·¿ 20°³" + totalPrice + "¿ø");
+		choco[0] = new Chocolate = ("ì•„ë§ˆë„ë¼", "ë‹¤í¬",2200);
+		choco[1] = new Chocolate = ("ì¹´í˜ í‚¤ë¦¬ì‰¬", "ë‹¤í¬", 2500);
+		choco[2] = new Chocolate = ("íŠ¸ë¦¬í”Œ ë¸”ë‘", "í™”ì´íŠ¸", 2300);
 		
-		choco.changeCholateInfo("Ä«Æä Å°¸®½¬", 2500);
-		chocoName = choco.getName();
-		totalPrice = choco.calculareTotalPrice(15, 10);
-		System.out.println(chocoName + "ÃÊÄİ·¿ 15°³(10%)ÇÒÀÎ) :" + totalPrice);
-		choco.changeChocolateInfo("Æ®¸®ÇÃ ºí¶û", "È­ÀÌÆ®",2300);
+		choco[0].printChocolateInfo();
+		choco[1].printChocolateInfo();
+		choco[2].printChocolateInfo();
+		
 	}
 
 }
